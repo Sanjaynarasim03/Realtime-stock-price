@@ -13,7 +13,7 @@ def get_realtime_stock_price(symbol, api_key):
 
 if __name__ == "__main__":
     # Replace with your Alpha Vantage API key
-    API_KEY = "47JMAJC6GA0I00VX"
+    API_KEY = "Your API Key"
 
 "
     # Example stock symbol

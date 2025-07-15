@@ -42,7 +42,7 @@ def predict_next_week(df):
     return list(zip(future_dates, preds))
 
 if __name__ == "__main__":
-    API_KEY = "47JMAJC6GA0I00VX"  # Replace with your Alpha Vantage API key
+    API_KEY = "Your API Key"  # Replace with your Alpha Vantage API key
     SYMBOL = "AAPL"  # Example stock symbol
     df = fetch_historical_data(SYMBOL, API_KEY)
     if df is not None:
